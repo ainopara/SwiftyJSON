@@ -166,7 +166,7 @@ public struct JSON {
 	
 	 - returns: The created JSON
 	 */
-    fileprivate init(jsonObject: Any) {
+    public init(jsonObject: Any) {
         self.object = jsonObject
     }
 
